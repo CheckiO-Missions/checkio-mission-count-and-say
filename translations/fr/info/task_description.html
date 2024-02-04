@@ -1,0 +1,58 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Étant donné une chaîne de chiffres qui est garantie de ne contenir que des caractères numériques de <code>0123456789</code>, lisez cette chaîne "à voix haute" en disant combien de fois chaque chiffre apparaît consécutivement dans le groupe de chiffres actuel, puis renvoyez la chaîne de chiffres que vous venez de dire à voix haute.  
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}count-say.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    Aussi bête et simple que ce problème <a target="_blank" href="https://en.wikipedia.org/wiki/Look-and-say_sequence">count-and-say sequence</a> puisse paraître au premier abord, il a fallu le génie d'un mathématicien d'un calibre non moins élevé que feu le grand <a target="_blank" href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> lui-même, non seulement pour remarquer l'énorme complexité prête à jaillir juste sous la surface lorsque cette opération est itérée à plusieurs reprises pour produire une séquence infinie de telles chaînes de chiffres, mais aussi pour capturer tout ce désordre dans une équation polynomiale symbolique, comme l'homme lui-même l'explique dans cette vidéo.
+</p>
+
+<p style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ea7lJkEhytA?si=hulVF72WZ_x2f6NH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+<p style="text-align: justify;">
+    Vous pouvez également jeter un coup d'œil à la construction connexe de l'infiniment long et pourtant parfaitement auto-descriptive <a target="_blank" href="https://en.wikipedia.org/wiki/Kolakoski_sequence">Kolakoski sequence</a>, où seule la longueur de chaque bloc consécutif de chiffres est inscrite dans la chaîne de résultats, et non les chiffres eux-mêmes.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}2024.jpg" alt="example" style="max-height: 300px"/>
+</p>
+<!-- Explain input and output values -->
+<p>
+   <strong>Entrée:</strong> Chaîne <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Sortie:</strong> Chaîne <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+    <strong>Exemples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+
+<p><i>La mission a été tirée de Python CCPS 109. Il est enseigné pour l'école d'éducation permanente Ryerson Chang par <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
