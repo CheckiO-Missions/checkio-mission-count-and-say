@@ -1,0 +1,58 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Wenn Sie eine Ziffernfolge erhalten, die garantiert nur Ziffernzeichen von <code>0123456789</code> enthält, lesen Sie diese Folge "laut" vor, indem Sie sagen, wie oft jede Ziffer nacheinander in der aktuellen Ziffernfolge vorkommt, und geben dann die Ziffernfolge zurück, die Sie gerade laut gesagt haben.  
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}count-say.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    So albern und einfach dieses <a target="_blank" href="https://en.wikipedia.org/wiki/Look-and-say_sequence">count-and-say sequence</a> Problem auf den ersten Blick auch erscheinen mag, es bedurfte des Genies eines Mathematikers von keinem geringeren Kaliber als dem verstorbenen <a target="_blank" href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> selbst, um nicht nur die enorme Komplexität zu erkennen, die unter der Oberfläche hervorbricht, wenn diese Operation wiederholt wiederholt wird, um eine unendliche Folge solcher Ziffernfolgen zu erzeugen, sondern auch, um das ganze Durcheinander in einer symbolischen Polynomgleichung zu erfassen, wie der Mann selbst in diesem Video erklärt.
+</p>
+
+<p style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ea7lJkEhytA?si=hulVF72WZ_x2f6NH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+<p style="text-align: justify;">
+    Sehen Sie sich auch das verwandte Konstrukt des unendlich langen und doch perfekt selbstbeschreibenden <a target="_blank" href="https://en.wikipedia.org/wiki/Kolakoski_sequence">Kolakoski sequence</a> an, bei dem nur die Längen der einzelnen aufeinanderfolgenden Ziffernblöcke in die Ergebniskette geschrieben werden, nicht aber die eigentlichen Ziffern.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}2024.jpg" alt="example" style="max-height: 300px"/>
+</p>
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> Zeichenkette <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> String <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+
+<p><i>Die Aufgabe wurde aus Python CCPS 109 übernommen. Sie wird für die Ryerson Chang School of Continuing Education unterrichtet von <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
