@@ -1,0 +1,58 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Biorąc pod uwagę ciąg cyfr, który na pewno zawiera tylko znaki cyfr z <code>0123456789</code>, proszę przeczytać ten ciąg "na głos", mówiąc, ile razy każda cyfra występuje kolejno w bieżącym zbiorze cyfr, a następnie zwrócić ciąg cyfr, który właśnie powiedziałeś na głos.  
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}count-say.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    Jakkolwiek głupi i prosty może się początkowo wydawać ten problem <a target="_blank" href="https://en.wikipedia.org/wiki/Look-and-say_sequence">count-and-say sequence</a>, wymagał on geniuszu matematyka nie mniejszego kalibru niż nieżyjący już wielki <a target="_blank" href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a>, który nie tylko zauważył ogromną złożoność gotową wybuchnąć tuż pod powierzchnią, gdy ta operacja jest wielokrotnie iterowana w celu wytworzenia nieskończonej sekwencji takich ciągów cyfr, ale także uchwycił cały ten bałagan w symbolicznym równaniu wielomianowym, jak sam Pan wyjaśnia w tym filmie.
+</p>
+
+<p style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ea7lJkEhytA?si=hulVF72WZ_x2f6NH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+<p style="text-align: justify;">
+    Mogą Państwo również zapoznać się z pokrewną konstrukcją nieskończenie długiego, a jednocześnie doskonale samoopisującego się <a target="_blank" href="https://en.wikipedia.org/wiki/Kolakoski_sequence">Kolakoski sequence</a>, w którym tylko długości każdego kolejnego bloku cyfr są zapisywane w ciągu wynikowym, a nie rzeczywiste cyfry.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}2024.jpg" alt="example" style="max-height: 300px"/>
+</p>
+<!-- Explain input and output values -->
+<p>
+   <strong>Wejście:</strong> String <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Wyjście:</strong> String <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+    <strong>Przykłady:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+
+<p><i>Misja została zaczerpnięta z Python CCPS 109. Jest on prowadzony dla Ryerson Chang School of Continuing Education przez <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
