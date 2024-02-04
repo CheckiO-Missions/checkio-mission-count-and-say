@@ -1,0 +1,58 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    За заданим рядком цифр, який гарантовано містить лише цифрові символи з <code>0123456789</code>, прочитайте цей рядок "вголос", вказавши, скільки разів кожна цифра зустрічається підряд у поточному наборі цифр, а потім поверніть рядок цифр, який ви щойно прочитали вголос.  
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}count-say.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    Якою б безглуздою і простою не здавалася спочатку ця <a target="_blank" href="https://en.wikipedia.org/wiki/Look-and-say_sequence">count-and-say sequence</a> задача, вона вимагала геніальності математика не меншого калібру, ніж сам покійний великий <a target="_blank" href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a>, щоб не тільки помітити величезну складність, готову вирватися на поверхню, коли ця операція багаторазово повторюється для отримання нескінченної послідовності таких рядків цифр, але і зафіксувати весь цей безлад в символічному поліноміальному рівнянні, як він сам пояснює в цьому відео.
+</p>
+
+<p style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ea7lJkEhytA?si=hulVF72WZ_x2f6NH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+<p style="text-align: justify;">
+    Ви також можете ознайомитися зі схожою конструкцією нескінченно довгого і при цьому чудово самоописуваного <a target="_blank" href="https://en.wikipedia.org/wiki/Kolakoski_sequence">Kolakoski sequence</a>, де в рядок результату записуються лише довжини кожного послідовного блоку цифр, а не самі цифри.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}2024.jpg" alt="example" style="max-height: 300px"/>
+</p>
+<!-- Explain input and output values -->
+<p>
+   <strong>Вхідні дані:</strong> Рядок <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Вихідні дані:</strong> Рядок <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+    <strong>Приклади:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+
+<p><i>Місія була взята з Python CCPS 109. Його викладають для Школи безперервної освіти Райерсона Чанга (Ryerson Chang School of Continuing Education) <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
