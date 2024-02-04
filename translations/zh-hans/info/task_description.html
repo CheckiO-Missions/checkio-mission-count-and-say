@@ -1,0 +1,58 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    如果给定一个数字字符串，并保证其中只包含来自<code>0123456789</code> 的数字字符，请 "大声 "读出该字符串，说出每个数字在当前数字串中连续出现的次数，然后返回刚才大声读出的数字字符串。  
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}count-say.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    虽然这个<a target="_blank" href="https://en.wikipedia.org/wiki/Look-and-say_sequence">count-and-say sequence</a> 问题最初看起来愚蠢而简单，但它需要一位不亚于已故伟大的数学家<a target="_blank" href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> 本人的天才，不仅要注意到当这个操作被反复迭代以产生一个无限的数字串序列时，巨大的复杂性就会从表面之下迸发出来，而且还要将整个混乱的过程捕捉到一个符号多项式方程中，正如他本人在这段视频中解释的那样。
+</p>
+
+<p style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ea7lJkEhytA?si=hulVF72WZ_x2f6NH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+<p style="text-align: justify;">
+    您还可以查看与此相关的无限长但完全可以自我描述的结构<a target="_blank" href="https://en.wikipedia.org/wiki/Kolakoski_sequence">Kolakoski sequence</a> ，在这个结构中，只有每个连续数字块的长度被写入结果字符串，而不是实际的数字。
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}2024.jpg" alt="example" style="max-height: 300px"/>
+</p>
+<!-- Explain input and output values -->
+<p>
+   <strong>输入：</strong>字符串 <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+   <strong>输出： 字符串</strong>字符串 <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+    <strong>示例</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+
+<p><i>任务摘自 Python CCPS 109。该课程由张瑞敏继续教育学院的以下教师讲授<a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
